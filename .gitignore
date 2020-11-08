@@ -1,0 +1,3 @@
+/target
+/src/proto/chess/cell.rs
+/src/proto/chess/move_command.rs

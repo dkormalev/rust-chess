@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package chess;
+
+message Cell {
+    string name = 1;
+}

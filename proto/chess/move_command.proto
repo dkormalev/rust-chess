@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "chess/cell.proto";
+
+package chess;
+
+message MoveCommand {
+    Cell from = 1;
+    Cell to = 2;
+}
